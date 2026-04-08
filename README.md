@@ -95,7 +95,11 @@ streamlit run app.py
 
 ## 🎯 Demo
 
-Demo
+## 🎥 Demo Video
+
+Check the demo here: [View Demo Video](videos/demo_video.md
+
+## Demo
 	•	Enter a Bollywood movie name ( we have 3000+ movies in our dataset! like "3 Idiots", "Dangal", "Sholay", "Kabhi Khushi Kabhie Gham", "Lagaan", "Bajrangi Bhaijaan", "PK", "Sultan", "Dhoom 2", "Barfi!", "Queen", "Gully Boy")
 	•	Choose recommendation type:
 	•	Genre Based
