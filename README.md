@@ -2,9 +2,11 @@
 
 An AI-powered movie recommendation system that suggests similar Bollywood movies based on **genre** and **actor similarity** using NLP techniques and cosine similarity.
 
-**Live Demo:**  
-👉 https://movierecommendation-project-mwazzqgh9xzclw5pdlagoe.streamlit.app/
+---
 
+## 🌐 Live Demo
+
+👉 https://movierecommendation-project-mwazzqgh9xzclw5pdlagoe.streamlit.app/
 
 ---
 
@@ -21,27 +23,27 @@ An AI-powered movie recommendation system that suggests similar Bollywood movies
 
 ## 🧠 How It Works
 
-1. **Data Preprocessing**
-   - Cleaned movie dataset (titles, genres, cast, ratings)
-   - Converted text to lowercase and handled missing values
+### 1. Data Preprocessing
+- Cleaned movie dataset (titles, genres, cast, ratings)
+- Converted text to lowercase and handled missing values
 
-2. **Feature Engineering**
-   - Separate TF-IDF vectorization for:
-     - Genres
-     - Cast
+### 2. Feature Engineering
+- TF-IDF vectorization applied separately on:
+  - Genres
+  - Cast
 
-3. **Similarity Calculation**
-   - Cosine similarity used to find similar movies
-   - Two modes:
-     - Genre similarity
-     - Actor similarity
+### 3. Similarity Calculation
+- Cosine similarity used to compute similarity scores
+- Supports:
+  - Genre similarity
+  - Actor similarity
 
-4. **Recommendation Logic**
-   - Finds closest movie match using fuzzy search
-   - Ranks movies based on similarity scores
+### 4. Recommendation Logic
+- Uses fuzzy search to match closest movie title
+- Returns Top-N similar movies based on similarity scores
 
-5. **Poster Fetching**
-   - Uses TMDB API to fetch movie posters dynamically
+### 5. Poster Fetching
+- Fetches movie posters dynamically using TMDB API
 
 ---
 
@@ -57,7 +59,6 @@ An AI-powered movie recommendation system that suggests similar Bollywood movies
 ---
 
 ## 📂 Project Structure
-
 Bollywood-movie-recommendation-model/
 │
 ├── app.py
@@ -73,53 +74,50 @@ Bollywood-movie-recommendation-model/
 │
 ├── videos/
 │   └── demo_video.md
+
+---
+
 ---
 
 ## ⚙️ Installation
 
-1. Clone the repository
-
+### 1. Clone the repository
 ```bash
 git clone https://github.com/iparimalrajb/Bollywood-movie-recommendation-model.git
 cd Bollywood-movie-recommendation-model
-
-2.	Install dependencies:
-
+```
+### 2. Install dependencies
 ```bash
 pip install -r requirements.txt
-
-3.	Set TMDB API Key:
-
+```
+### 3. Set TMDB API Key
 ```bash
 export TMDB_API_KEY="your_api_key"
-
-4. Run the Streamlit app:
-
+```
+### 4. Run the application
 ```bash
 streamlit run app.py
+```
+---
 
-## 🎯 Demo
+🎥 Demo Video
+👉 View Demo Video(videos/demo_video.md)￼
 
-## 🎥 Demo Video
-
-Check the demo here: [View Demo Video](videos/demo_video.md
-
-## Demo
-	•	Enter a Bollywood movie name ( we have 3000+ movies in our dataset! like "3 Idiots", "Dangal", "Sholay", "Kabhi Khushi Kabhie Gham", "Lagaan", "Bajrangi Bhaijaan", "PK", "Sultan", "Dhoom 2", "Barfi!", "Queen", "Gully Boy")
+🎯 Usage
+	•	Enter a Bollywood movie name (e.g., 3 Idiots, Dangal, Sholay, Lagaan, PK)
 	•	Choose recommendation type:
 	•	Genre Based
 	•	Actor Based
-	•	Get top similar movies with posters 🎬
-
+	•	Get Top similar movie recommendations with posters 🎬
 
 🔥 Future Improvements
 	•	Hybrid recommendation system (Genre + Actor + Ratings)
-	•	Add movie overview & description
-	•	Deploy on Streamlit Cloud
-	•	RAG-based conversational movie recommender
+	•	Add movie overview and descriptions
+	•	RAG-based conversational recommender system
 	•	User-based collaborative filtering
-    •	Personalized recommendations based on user preferences
+	•	Personalized recommendations based on user behavior
 
 🤝 Contributing
 
-Feel free to fork this repo and improve the system!
+Contributions are welcome!
+Feel free to fork this repository and submit a pull request.
