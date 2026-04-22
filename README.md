@@ -58,16 +58,21 @@ An AI-powered movie recommendation system that suggests similar Bollywood movies
 
 ## 📂 Project Structure
 
+Bollywood-movie-recommendation-model/
+│
 ├── app.py
 ├── finalmaster_dataset_movie_cleaned.csv
+├── requirements.txt
+├── .env
+├── README.md
+│
 ├── screenshots/
 │   ├── home_page.jpg
 │   ├── genere_based_recommendation.jpg
 │   └── actor_based_recommendation.jpg
+│
 ├── videos/
-├── requirements.txt
-├── .env
-└── README.md
+│   └── demo_video.md
 ---
 
 ## ⚙️ Installation
