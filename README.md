@@ -59,6 +59,7 @@ An AI-powered movie recommendation system that suggests similar Bollywood movies
 ---
 
 ## 📂 Project Structure
+
 Bollywood-movie-recommendation-model/
 │
 ├── app.py
@@ -73,7 +74,7 @@ Bollywood-movie-recommendation-model/
 │   └── actor_based_recommendation.jpg
 │
 └── videos/
-└── demo_video.md
+    └── demo_video.md
 ---
 
 ---
