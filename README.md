@@ -72,9 +72,8 @@ Bollywood-movie-recommendation-model/
 │   ├── genere_based_recommendation.jpg
 │   └── actor_based_recommendation.jpg
 │
-├── videos/
-│   └── demo_video.md
-
+└── videos/
+└── demo_video.md
 ---
 
 ---
